@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      Salam
+      <h1>Veb Sayt</h1>
       <button onClick={onClose}>Baqla</button>
     </>
   );
