@@ -1,20 +1,15 @@
-import { useEffect } from "react";
 import "./App.css";
-const tg = window.Telegram.WebApp;
+import { Button } from "./components/Button";
 
 function App() {
-  useEffect(() => {
-    tg.ready();
-  }, []);
-
-  const onClose = () => {
-    tg.close();
-  };
-
   return (
     <>
-      <h1>Veb Sayt</h1>
-      <button onClick={onClose}>Baqla</button>
+      <h1>Fuad burda qot vermek ucun elan yerlewirecek tezlikle gozleyin</h1>
+      <h1>
+        Ve elbetdeki yeni ulduzmuz Rasim qara bazara oz ekskuluziv sekiller ile
+        qelecek
+      </h1>
+      <Button />
     </>
   );
 }
